@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src  = "https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            <!--assetsManagment-->
+            <a-assets timeout = "10000">
+                <a-asset-item id = "street" src = "./models/american_road/scene.gltf"></a-asset-item>
+                <a-asset-item id = "girl" src = "./models/scifi_girl_v.01/scene.gltf"></a-asset-item>
+                <a-asset-item id = "dog" src = "./models/small_dog_figurine/scene.gltf"></a-asset-item>
+                <a-asset-item id = "lamp" src = "./models/street_lamp/scene.gltf"></a-asset-item>
+                <a-asset-item id = "bench" src = "./models/bench/scene.gltf"></a-asset-item>
+
+                <img id = "bg" src = "./images/sunset.jpg">
+            </a-assets>
+
+            <!--lightsInTheScene-->
+            <a-entity light = "type:point; castShadow:true; color:#e6ca14; intensity:2.35"></a-entity>
+            <a-entity light = "type:ambient;"></a-entity>
+
+            <!--camera-->
+            <a-entity position = "0 0 15">
+                <a-camera></a-camera>
+            </a-entity>
+
+            <!--road-->
+            <a-entity scale = "0.05 0.05 0.05" gltf-model = "#street" position = "0 0 0" shadow = "receive:true;"></a-entity>
+        </a-scene>
+    </body>
+</html>

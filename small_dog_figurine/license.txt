@@ -1,0 +1,11 @@
+Model Information:
+* title:	Small dog figurine
+* source:	https://sketchfab.com/3d-models/small-dog-figurine-803bc4c9d2774f2394fc740b18b442c0
+* author:	iwamah1 (https://sketchfab.com/iwamah1)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Small dog figurine" (https://sketchfab.com/3d-models/small-dog-figurine-803bc4c9d2774f2394fc740b18b442c0) by iwamah1 (https://sketchfab.com/iwamah1) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
